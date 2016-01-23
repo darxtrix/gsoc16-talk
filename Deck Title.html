@@ -1,0 +1,1214 @@
+
+<!-- saved from url=(0059)http://strut.io/editor/preview_export/impress.html#/step-23 -->
+<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>GSOC'16 Talk</title>
+
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
+
+<style>
+.componentContainer {
+    position: absolute;
+    line-height: normal;
+    /*-webkit-transform-origin: 135% 135%;
+    -moz-transform-origin: 135% 135%;
+    transform-origin: 135% 135%;*/
+}
+
+.transformContainer {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<link rel="stylesheet" href="./Deck Title_files/default-reset.css">
+<link href="./Deck Title_files/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./Deck Title_files/default.css" id="theme">
+<link href="./Deck Title_files/web-fonts.css" rel="stylesheet" type="text/css">
+<link href="./Deck Title_files/backgroundClasses.css" rel="stylesheet" type="text/css">
+<link href="./Deck Title_files/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://strut.io/editor/preview_export/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="http://strut.io/editor/preview_export/apple-touch-icon.png" type="image/png">
+
+<style>
+.reveal.themedArea {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<script async="" src="./Deck Title_files/analytics.js"></script><script type="text/javascript" src="./Deck Title_files/dataset-shim.js"></script>
+<script type="text/javascript" src="./Deck Title_files/impress.js"></script>
+
+<script src="./Deck Title_files/onready.js"></script>
+<script src="./Deck Title_files/loadPresentation.js"></script>
+<script>
+ready(function() {
+    if (document.getElementById('launched-placeholder'))
+        loadPresentation();
+
+    if (!window.presStarted) {
+        startPres(document, window);
+        impress().init();   
+    }
+
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = 
+            "<p>Tap on the left or right to navigate</p>";
+    }
+});
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42322531-1', 'strut.io');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body class="impress-supported impress-enabled" style="height: 100%; overflow: hidden;">
+<style type="text/css">
+/*.example {
+	border: 4px groove orange;
+}*/
+</style>
+<style>
+
+</style>
+<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+</style>
+<!-- This is a work around / hack to get the user's browser to download the fonts 
+ if they decide to save the presentation. -->
+<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="./Deck Title_files/Lato-Bold.woff">
+<img src="./Deck Title_files/HammersmithOne.woff">
+<img src="./Deck Title_files/Droid-Sans-Mono.woff">
+<img src="./Deck Title_files/Gorditas-Regular.woff">
+<img src="./Deck Title_files/FredokaOne-Regular.woff">
+<img src="./Deck Title_files/Ubuntu.woff">
+<img src="./Deck Title_files/Ubuntu-Bold.woff">
+<img src="./Deck Title_files/PressStart2P-Regular.woff">
+<img src="./Deck Title_files/Lato-BoldItalic.woff">
+<img src="./Deck Title_files/AbrilFatface-Regular.woff">
+<img src="./Deck Title_files/Lato-Regular.woff">
+</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="bg bg-surf-grad-darkgreen strut-surface">
+<div class="bg innerBg strut-slide-22 bg-surf-grad-darkgreen">
+<div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 0ms ease-in-out 0ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3758.56px) scale(0.266059);"><div style="position: absolute; transform-origin: left top 0px; transition: all 0ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-89019.7px, -11105.3px, 0px);">
+	
+		
+			<div class="step future" data-state="strut-slide-0 bg-surf-grad-darkgreen " data-x="2457.6" data-y="2764.8" data-scale="3" id="step-1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2457.6px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 42px; left: 64px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 76px;" class="antialias">
+<font face="Lato" color="#68b022">Google Summer of Code'16</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 249px; left: 145px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<div style="text-align: center;"><span style="color: rgb(238, 238, 238); font-family: Lato;">An overview and how to</span></div><font color="#eeeeee" face="Lato"><div style="text-align: center;">get selected!</div></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 599px; left: 671px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<i><font color="#eeeeee" face="Lato">Viyat Bhalodia<br></font><font color="#eeeeee">Ankush Sharma</font></i><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-1 bg-surf-grad-darkgreen " data-x="6280.533333333334" data-y="2764.8" data-scale="3" id="step-2" style="position: absolute; transform: translate(-50%, -50%) translate3d(6280.53px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 20px; left: 38px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Open Source Software</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 175px; left: 239px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 543px; height: 543px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.91, 0.91);
+-moz-transform: scale(0.91, 0.91);
+transform: scale(0.91, 0.91)">
+<img src="./Deck Title_files/AffiliateLogosFinal_7.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-2 bg-surf-grad-darkgreen " data-x="10103.466666666667" data-y="2764.8" data-scale="3" id="step-3" style="position: absolute; transform: translate(-50%, -50%) translate3d(10103.5px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 154px; left: 145px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font face="Lato" color="#68b022">GSoC ?</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 86px; left: 625px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 327px; height: 293.89px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.38, 1.38);
+-moz-transform: scale(1.38, 1.38);
+transform: scale(1.38, 1.38)">
+<img src="data:image/png;base64,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">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 495px; left: 36px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font color="#eeeeee" face="Lato">An internship program in which you collaborate <br>with an organisation&nbsp;</font><font color="#eeeeee">to develop open source <br>software .</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-3 bg-surf-grad-darkgreen " data-x="13926.4" data-y="2764.8" data-scale="3" id="step-4" style="position: absolute; transform: translate(-50%, -50%) translate3d(13926.4px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 175px; left: 7px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 34px;" class="antialias">
+<font face="Lato" color="#eeeeee" style="line-height: 1em;"><span style="line-height: normal;"><br></span></font><br><div><font color="#eeeeee" face="Lato"><br></font></div><div><font color="#eeeeee" face="Lato"><br></font></div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 26px; left: 37px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">What it is really about ?</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 191px; left: 75px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Open source<br>- Learning<br>- Networking<br>- Making new friends<br>- Of Course $$<br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-4 bg-surf-grad-darkgreen " data-x="17749.333333333332" data-y="2764.8" data-scale="3" id="step-5" style="position: absolute; transform: translate(-50%, -50%) translate3d(17749.3px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 10px; left: 287px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Some stats&nbsp;</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 181px; left: 45px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 32px;" class="antialias">
+<font face="Lato" color="#e3eb08"><i>Since 2005: 11,000 students. 103 countries. Over 50 million lines of code.</i></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 262px; left: 261px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 529px; height: 468.52px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="./Deck Title_files/uw3OrNX.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 604px; left: 189px; -webkit-transform: rotate(1.61rad) skewX(0.04rad) ; -moz-transform: rotate(1.61rad) skewX(0.04rad) ; transform: rotate(1.61rad) skewX(0.04rad) ; width: 28.89px; height: 75.89px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#bac614" height="75.8916285843548" width="28.893597455486816" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 50" preserveAspectRatio="none"><polygon points="25,0 50,50 0,50"></polygon></svg>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-5 bg-surf-grad-darkgreen " data-x="21585.92" data-y="2780.16" data-scale="3" id="step-6" style="position: absolute; transform: translate(-50%, -50%) translate3d(21585.9px, 2780.16px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 39px; left: 51px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 150px;" class="antialias">
+<font face="Lato" color="#d9e106">&lt; let's do it /&gt;&nbsp;</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 257px; left: 304px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 424px; height: 424px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.26, 0.26);
+-moz-transform: scale(0.26, 0.26);
+transform: scale(0.26, 0.26)">
+<img src="./Deck Title_files/IMG_20150531_185728.jpg">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-6 bg-surf-grad-darkgreen " data-x="25340.586666666666" data-y="7111.68" data-scale="3" id="step-7" style="position: absolute; transform: translate(-50%, -50%) translate3d(25340.6px, 7111.68px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-6" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 10px; left: 210px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Pre-requisites</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 223px; left: 51px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Know any programming language<br>- Any </font><font face="Lato"><font color="#e3eb08">Version Control System<br></font><font color="#eeeeee">- Patience :)</font><br><font color="#eeeeee">- Learning by doing</font><br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-7 bg-surf-grad-darkgreen " data-x="29095.253333333334" data-y="7065.6" data-scale="3" id="step-8" style="position: absolute; transform: translate(-50%, -50%) translate3d(29095.3px, 7065.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-7" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 199px; left: 72px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Choose an organisation<br>- Talk to the developers&nbsp;<br>- Contribute code<br>- Submit a proposal<br>- Wait for evaluation<br></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 15px; left: 197px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">&nbsp; &nbsp; &nbsp; Journey</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-8 bg-surf-grad-darkgreen " data-x="33041.066666666666" data-y="7065.6" data-scale="3" id="step-9" style="position: absolute; transform: translate(-50%, -50%) translate3d(33041.1px, 7065.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-8" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 257px; left: 343px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 294px; left: 185px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">Choosing an org</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 457px; left: 146px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 185px; height: 182.73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.76, 0.76);
+-moz-transform: scale(0.76, 0.76);
+transform: scale(0.76, 0.76)">
+<img src="./Deck Title_files/mozilla_firefox.jpg">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 465px; left: 613px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 282px; height: 176.43px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.45, 1.45);
+-moz-transform: scale(1.45, 1.45);
+transform: scale(1.45, 1.45)">
+<img src="data:image/jpeg;base64,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">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 57px; left: 331px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 353px; height: 149.48px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.8, 1.8);
+-moz-transform: scale(1.8, 1.8);
+transform: scale(1.8, 1.8)">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUQExETFBQXFCAWGBcYGBYXGRgVFRcaHBwUFxocHCkiHRomGxgYITIhJykrLi8vFx8zODgsNygtLisBCgoKDg0OGxAPGzckIB8sLCwsMC8sNC8vLCwsLC0sLCwsNywsLCwsLDcuLCwsNyssLCssKysrNzc3LCw3LCssK//AABEIAFMAxAMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYEBwECAwj/xAA+EAABAwIDBQUFBwIFBQAAAAABAAIDBBEFEiEGMUFRYQcTInGBFEKRocEyQ1JygrHRFWIjY6Ky8BckU1SS/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAIDBAUB/8QAIxEBAAICAAYCAwAAAAAAAAAAAAECAxEEEiExQVETMhRhcf/aAAwDAQACEQMRAD8A3iiKr7e7aQYbCJH+OV9xFEDZzyN56NFxcoJ7Ea+KCMyzSMjjbvc4ho+JWuMY7Y6dpLKSB9Qd2dx7pnpoXH4DzWmdpdpqmumE1U8uPuRNvkYOTG8PPeuaLDZn73d2OTd/qVZjxWv9YRm0R3bN/wCple83AgiHLKT83FStBtxWOIvJC7plb9CtZU+yzDqWl35iSs5uxcZ+7A8rhX/h29ofLDdWG7TSO0kiHm0kfIqxU9S14uD6cV8/0tBX0vip6l9h93Jd7NOGuo9Fetju0iN7xTVkQppzo117xPPRx+yehVN8NqxvwnF4ls1FhxVwJynedyzFUkIiICIiAiIgIiICIiAiIgIiICIiDBxnE46aCSplNo42lzvTgOp3L5T2nx2auqHVc2r3nLGy9wxnuxjoL6niTfjptzt4xVxEFAw6PJmk8mmzG+ROY/oHNanwWiMsj3i3h8LAdMxG+3VW4cfPbSNp1G2ZguFBvidq87z9ArXRU40UPTyZdLbue/yKk6aut7vzXX5YiNVZfO5WKipxyU7SUo5Kt0WJN6j0/hWOCvYW3aR5cRe3PeLj5rNk2nWYZxpG2uRp/PBVrabZmKVrmloIU6+tzAcN/wC+9eHtG8EXHr8FXWbQlMqtsptDLBIMOqnF3/ryneQPunHiRwW19ncV71pY4+Nm/q3gfp6LTm2dEJGEt0e052HiHN1Hz/dSuxW013QVJ0zeCQcvdd8Dr6BZ8+PlnceVlLbbnRcBeVVMGtLiQLDibBUJvZF1Y64BBuOi7ICIiAiLhzgNTuQcogRARdI5Wm9nA232IK7oCIiAiIg0H2oyF1fUyf8AjYGj9LL/ALuVMwhuWJg6X9Tqtg9otETNXG29pP8AoH8LXtG7wN/KP2W/gYiZlVm7J2KszWEjc/W9nDydb97rKiiiO58g6FrT8w4fsoSJykKO7nBo3k/8J6Lo2rrszbWDDWNF9GuA1LnDcB62CzafEgbjIwNItoLEcnXVenqwbMYfAOP4j+I/QcAsqh8R13Df16Kqa+3s/pa4cwcACNAHXF9x3EDf6dV2q5rA6i/IXUU6stPYfhDfTKNCuK2tJ4m3AEk2VPJ1SiUdi8+hVUwSoyd/FfQSZh+sA/RTGJTb1VYZrSzn8o+AUOLiIxR/U8X2fQO0O1vsmEsrQ0OkfEwRt33kkAtcchv9FjYRsNE+D2jEWisqnszvdL4mszaiOJm5rRoNN+/yq3aBTv8A6Hh09jaLuXPbruyaf6rC/ULadLKyWnbMx5c18Qc0hxIIc24sua0NdbZYU/Bi3E8PLmQCRrailue6cHmwe1p+ySSBp/b1vLbe7PwYjhzq2GMGd1O2SKQaOLB4xHfkQXDpmWT2uvYzCKouJ1DWtBPvGVltOJB8X6SpXYKhdFh1JHJfMKZgcDwu2+X0vb0QQuwFDRVuEQA08ZY4XkZrb2hnhc/zJu71CgOyOkghr6+kLWungld3cnvGEnKWjXgQ2/5gumzOLf0qpxWgffKwGqp28Xh9rMbzN3MFuJB5LxqMJOFVuF1h++BgqncHSzEuJ/8Ap53/AIByQWfbTBaerxCjpnRtc/xTzO1zezwiwjuDudJI34LntApyyiZhVFG1jqgujawaBsLQ6SV3kfs+b1JbIf489XiG8Pk9nhP+RTEtzDo6QyOvytyUVBPVz4jPWU0MMscANHGZJHMGZpDpnNsx1/GGsv8A5Z5oJHspxr2nDYS43kib3L7780egJ6loBUH2lYm32+ioKiQx0ct3y2dlEhBs2N7r/Yva46rC2DdLQ4xVUMzGxtq2mqja1xcxsmYktaS0XuC7y7tqvO1Wz1JXsFLUAF1i9lnBsreBezjbgdCOaCDxfYCnElJPQ08ML4qlr3uZ4M0GV2Yab9cpsq9244TA0UtQ2MCWWsbHI8XBewsPhd00HwUficNds66OVlS6poHPyGN+9gsTlAv4TlDrFthcbhdTnbvfuKKxsTXNsd9rsdqg9tuNjaelpJa2jdJSTQM7wOjkeGutbwvaTYg/x5K17C4q+qoKapkHjfGC7SwLtxPra6isW2Mqqwd1WYi59PmBMUULYS+xuA9+Zxtpw+St1HSsiY2KNrWMY0Na0CwAG4AIPdERBSNrMJDpySPDJHY/Np+VvitFUlG6Mvp3fbieYz+k6HyIsvqHEKUPA5jUfwtQdrOzrqeVmJxtJjeBHUAe6R9iXThwPkOa08Lk5L9e0q8ldwpDadwWcwFkZPvSeEdGD7R9T4f0lZ1HleAdNeI/dZxpmnXja3oF1pv7ZYhB08B46BTNARmaOG+3Owvb1tb1R8IC8mzBjg7kQfgVGZ297MdtWS7OTqTc+q9amqUbWeB5bwB06jgfgsWoqbqUVebcV1Te6rdC0yuDG3zTSZQPznKF7Y1V6d2Dqd/RqunYds4ais9rcP8ACpdW8jMRZo/SDm88q5/G5ImYrHhoxV1G5b3fg8T6b2ORgdEYhG5p3EAAfS6p2G7N4jhzHQ0k0NTS6lkVQXMkjBNy1sjQRa/RbCCELAuUqTZaprZopcRki7mJ2dlLCHZDIL2fK92rrcgB9Fdcq5RBS9qNiW1WIUdbplhJ70H3wzxRjrZ/wusztE2bNfRSU7SBJcPjJ0AkaePIEEj1VoXFkEBFhc9PRw0tGYWmOMR5pQ8jRts4DN7idfUrjYrCJqSmbTTGFxbudHnBeXElz35veLidysFksgou1uytbVVlPVwy0sRpnXjJEhc4EC7JLG1r33c164tgmIGppsQidSmaKF8UkZ7wMeJHXu07xuG++qutksgoldsxW4g+H+oPgjp4pBL3EGdxkkbcDvHu92xOgHFefaFstXYgY2MdTRxQzNmYXd4XktbazraW1O7or/ZLIMPCTUd3/wByIhJf7rNltw+1qs1EQEREBRWN04cxzXtDo3DK4EXFjvuOSlVw4X0QfOuP4DNhzy+IOlpCb6eJ0N/dPNvIrmixtjxcEHyW48b2dcbuht+Q/Q/Rak2i2ViDy4skppeJb4AepaRYjqtmLiprGrRtVbHvrDpLXDmo6pq1Gz4fUM3TRvH9zSD8isGb2gb3RDyDj9Vqji8UK/ismJqgPZqQHsGl/ej/AA+YN7dDbgoGuxUDwss53PgP5WJOHOOVz3PPBreJ8hqrjsh2VVtZZ8rTSU99XPaRI4f2xnX1db1VGTjemqLK4ojuquy+z1RX1Ap4QXOcbySEXbG3i93TkOK+qtlsAioaaOlhHhYNSbXc473u6krz2W2YpqCEQU7Mo3ucdXvd+J54n5DgppYJna0REQEREBERAREQEREBERAREQEREBERBwV5T0zJBlexrxycAURBW8T2LoHm5pmj8rns/wBrgo5vZ3hl7mlv5yzEfAvsiILLhOzlHTW7imhjPNrBf471KFEQdkREBERAREQEREBERAREQEREBERAREQf/9k=">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-9 bg-surf-grad-darkgreen " data-x="36864" data-y="7065.6" data-scale="3" id="step-10" style="position: absolute; transform: translate(-50%, -50%) translate3d(36864px, 7065.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-9" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 40px; left: 90px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 64px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Based on your interest<br>- Experience required<br>- Active ?<br><br><br></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 303px; left: 114px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 782px; height: 400.07px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.13, 1.13);
+-moz-transform: scale(1.13, 1.13);
+transform: scale(1.13, 1.13)">
+<img src="./Deck Title_files/7p43k4t.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-10 bg-surf-grad-darkgreen " data-x="40673.28" data-y="7111.68" data-scale="3" id="step-11" style="position: absolute; transform: translate(-50%, -50%) translate3d(40673.3px, 7111.68px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-10" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 276px; left: 94px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">Talking to developers</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 452px; left: 250px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font face="Lato" color="#eeeeee"><i>Slack, Gitter, IRC, Skype, Hangouts</i></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-11 bg-surf-grad-darkgreen " data-x="44591.78666666667" data-y="7050.24" data-scale="3" id="step-12" style="position: absolute; transform: translate(-50%, -50%) translate3d(44591.8px, 7050.24px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-11" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 25px; left: 140px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Introductory Mail</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 205px; left: 50px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 938px; height: 381.41px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.11, 1.11);
+-moz-transform: scale(1.11, 1.11);
+transform: scale(1.11, 1.11)">
+<img src="./Deck Title_files/3Oesf8w.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-12 bg-surf-grad-darkgreen " data-x="48674.13333333333" data-y="7188.48" data-scale="3" id="step-13" style="position: absolute; transform: translate(-50%, -50%) translate3d(48674.1px, 7188.48px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-12" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 123px; left: 62px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/k4yUSu7.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-13 bg-surf-grad-darkgreen " data-x="52674.56" data-y="7080.96" data-scale="3" id="step-14" style="position: absolute; transform: translate(-50%, -50%) translate3d(52674.6px, 7080.96px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-13" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 24px; left: 137px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">&nbsp; &nbsp; &nbsp; Using IRC</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 47px; left: 48px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 444.43px; left: 58px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/JOkjYdG.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 225px; left: 59px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 56px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Say Hi ! &amp; ask the question&nbsp;<br></font><font color="#eeeeee">- Wait for somebody to answer</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-14 bg-surf-grad-darkgreen " data-x="56470.18666666667" data-y="7157.76" data-scale="3" id="step-15" style="position: absolute; transform: translate(-50%, -50%) translate3d(56470.2px, 7157.76px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-14" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 16px; left: 14px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Learn how to use IRC<br>- Join the mailing-list/Google-groups&nbsp;<br>- Talk often and show enthusiasm<br>- Be patient, most of the devs have a<br>&nbsp; day job and cannot answer your&nbsp;<br>&nbsp; questions immediately&nbsp;<br>- It's rude to DM anyone on IRC&nbsp;<br>&nbsp; &nbsp;without their express permission</font><font face="Lato"><font color="#e3eb08">(!)</font><br><font color="#eeeeee">- Use proper grammar, no slangs </font></font><font face="Lato" color="#e3eb08">(!)</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-15 bg-surf-grad-darkgreen " data-x="61071.36" data-y="7157.76" data-scale="3" id="step-16" style="position: absolute; transform: translate(-50%, -50%) translate3d(61071.4px, 7157.76px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-15" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 1px; left: 141px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Using mailing list</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 152px; left: 37px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 54px;" class="antialias">
+<font color="#eeeeee" face="Lato">Ask queries, file bugs and there you go !!</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 248px; left: 189px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 593px; height: 498.78px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.02, 1.02);
+-moz-transform: scale(1.02, 1.02);
+transform: scale(1.02, 1.02)">
+<img src="./Deck Title_files/YmMAiAy.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-16 bg-surf-grad-darkgreen " data-x="65262.933333333334" data-y="7111.68" data-scale="3" id="step-17" style="position: absolute; transform: translate(-50%, -50%) translate3d(65262.9px, 7111.68px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-16" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 273px; left: 46px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">Contribute some code</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-17 bg-surf-grad-darkgreen " data-x="68539.73333333334" data-y="11043.84" data-scale="3" id="step-18" style="position: absolute; transform: translate(-50%, -50%) translate3d(68539.7px, 11043.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-17" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 52px; left: 54px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Project setup<br>- Find beginner friendly bug in the <br>&nbsp; &nbsp;issue tracker<br>- Ask the devs if you can't find one<br>- Write some code fixing the issue<br>- Send a PR or propose a patch.<br>- Get it reviewed <br>- Get it merged !!&nbsp;<br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-18 bg-surf-grad-darkgreen " data-x="72663.04" data-y="11028.48" data-scale="3" id="step-19" style="position: absolute; transform: translate(-50%, -50%) translate3d(72663px, 11028.5px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-18" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 28px; left: 189px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Beginner Bugs&nbsp;</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 322px; left: 23px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/wyKwoID.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 198px; left: 334px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 64px;" class="antialias">
+<br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-19 bg-surf-grad-darkgreen " data-x="76868.26666666666" data-y="11028.48" data-scale="3" id="step-20" style="position: absolute; transform: translate(-50%, -50%) translate3d(76868.3px, 11028.5px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-19" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 253px; left: 67px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">**Submit a proposal**</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-20 bg-surf-grad-darkgreen " data-x="80909.65333333334" data-y="11059.2" data-scale="3" id="step-21" style="position: absolute; transform: translate(-50%, -50%) translate3d(80909.7px, 11059.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-20" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 25px; left: 276px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">The Idea !!</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 198px; left: 32px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 39px;" class="antialias">
+<font color="#eeeeee"><font face="Lato">Look for an existing idea&nbsp;</font>on the ideas page or purpose&nbsp;<br>a new one by talking to the devs<br></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 333px; left: 120px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/QtlYVYD.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-21 bg-surf-grad-darkgreen " data-x="84951.04" data-y="11043.84" data-scale="3" id="step-22" style="position: absolute; transform: translate(-50%, -50%) translate3d(84951px, 11043.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-21" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 87px; left: 80px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/xHS7ILz.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step active present" data-state="strut-slide-22 bg-surf-grad-darkgreen " data-x="89019.73333333334" data-y="11105.28" data-scale="3" id="step-23" style="position: absolute; transform: translate(-50%, -50%) translate3d(89019.7px, 11105.3px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-22" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 72px; left: 28px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee" face="Lato">- Research first, ask questions later<br>- Assumptions are the hardest thing <br>&nbsp; to refactor<br>- Handle disagreements gracefully<br>- Study the existing code&nbsp;<br>- Be practical, write some code<br>- Discuss thoroughly with devs </font><font face="Lato"><font color="#d9e106">(!)</font><br><font color="#eeeeee">- Choose submission time wisely</font><br><br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-23 bg-surf-grad-darkgreen " data-x="93197.65333333334" data-y="11136" data-scale="3" id="step-24" style="position: absolute; transform: translate(-50%, -50%) translate3d(93197.7px, 11136px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-23" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 258px; left: 42px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">Keep contributing and<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;wait ;)<br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-24 bg-surf-grad-darkgreen " data-x="96624.64" data-y="14592" data-scale="3" id="step-25" style="position: absolute; transform: translate(-50%, -50%) translate3d(96624.6px, 14592px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-24" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 215px; left: 56px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/tcAZktC.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-25 bg-surf-grad-darkgreen " data-x="100160.85333333333" data-y="14607.36" data-scale="3" id="step-26" style="position: absolute; transform: translate(-50%, -50%) translate3d(100161px, 14607.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-25" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 45px; left: 311px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Benefits</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 215px; left: 103px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 68px;" class="antialias">
+<font color="#eeeeee"><font face="Lato">- Easy jobs &amp; internships<br></font><font face="Lato">- You get recognized&nbsp;<br>- Exposure<br><br></font></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 516px; left: 17px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 995px; height: 150.79px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.19, 1.19);
+-moz-transform: scale(1.19, 1.19);
+transform: scale(1.19, 1.19)">
+<img src="./Deck Title_files/kU6WUXB.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-26 bg-surf-grad-darkgreen " data-x="101853.86666666667" data-y="19968" data-scale="3" id="step-27" style="position: absolute; transform: translate(-50%, -50%) translate3d(101854px, 19968px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-26" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 29px; left: 164px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Important dates</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 188px; left: 59px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./Deck Title_files/S8i7tmj.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-27 bg-surf-grad-darkgreen " data-x="105676.8" data-y="19968" data-scale="3" id="step-28" style="position: absolute; transform: translate(-50%, -50%) translate3d(105677px, 19968px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-27" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 29px; left: 163px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Important links</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 201px; left: 43px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 41px;" class="antialias">
+<font color="#eeeeee">- <a href="http://wiki.illumos.org/display/illumos/How+to+write+an+excellent+GSoC+proposal" target="_blank"><font color="#eeeeee">https://developers.google.com/open-source/gsoc/</font></a><br>- Follow #gsoc on Twitter<br>- <a href="http://wiki.illumos.org/display/illumos/How+to+write+an+excellent+GSoC+proposal" target="_blank"><font color="#eeeeee">http://wiki.illumos.org/display/illumos/How+to+<br>&nbsp; &nbsp;write+an+excellent+GSoC+proposal</font></a><br>-&nbsp;<a href="http://www.di.ens.fr/~baghdadi/TXT_blog/5_advices_to_get_your_proposal_accepted.lyx.html" target="_blank"><font color="#eeeeee">http://www.di.ens.fr/~baghdadi/TXT_blog/5_advices<br>&nbsp; &nbsp;_to_get_your_proposal_accepted.lyx.html</font></a><br>-&nbsp;</font><a href="http://seccoalegsoc.blogspot.com/2013/05/accepted-project-dynamically.html" target="_blank"><font color="#eeeeee">h</font></a><font color="#eeeeee">ttp://seccoalegsoc.blogspot.com/2013/05/accepted<br>&nbsp; &nbsp; -project-dynamically.html<br>-<a href="http://null/" target="_blank"><font color="#eeeeee">&nbsp;https://groups.google.com/forum/#!forum/<br>&nbsp; &nbsp;google-summer-of-code-discuss</font></a><br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-28 bg-surf-grad-darkgreen " data-x="109499.73333333334" data-y="19968" data-scale="3" id="step-29" style="position: absolute; transform: translate(-50%, -50%) translate3d(109500px, 19968px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-28" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 51px; left: 211px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#68b022" face="Lato">Other programs</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 196px; left: 13px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 62px;" class="antialias">
+<font color="#eeeeee"><font face="Lato">- OWASP Summer Code Sprint<br>- OWASP Winter Code Sprint<br>- Mozilla Winter of Security<br>- Rails Girls Summer of Code<br></font>- Outreach program for Gnome/KDE<br>- WomenWhoCode<br></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-29 bg-surf-grad-darkgreen " data-x="113322.66666666667" data-y="19968" data-scale="3" id="step-30" style="position: absolute; transform: translate(-50%, -50%) translate3d(113323px, 19968px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="bg-solid-lavender slideContainer strut-slide-29" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 327px; left: 154px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#d9e106" face="Lato">All the very best ;)</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+	<div id="overview" class="step future" data-state="strut-slide-overview" data-x="57890.13333333333" data-y="11366.4" data-scale="9" style="position: absolute; transform: translate(-50%, -50%) translate3d(57890.1px, 11366.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;"></div>
+	
+</div></div>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+</div>
+</div></body></html>
